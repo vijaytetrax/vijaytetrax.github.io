@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback Form</title>
+		<link rel="shortcut icon" type="image/x-icon" href=" picture1.jpg"/>
+</head>
+<body>
+	<form method="GET">
+		<h2>Please fill the form</h2>
+		<table border="0" cellpadding="10" cellspacing="5">
+			<tr><td><label>First Name: </label></td>
+				<td><input type="text" name="First name" placeholder="ex. John"></td>
+			</tr>
+			<tr><td><label>Last Name: </label></td>
+				<td><input type="text" name="last name" placeholder="ex. Andrews"></td>
+			</tr>
+			<tr><td><label>Your Email: </label></td>
+				<td><input type="email" name="email" placeholder="example@mail.com" required></td>
+			</tr>
+			<!--tr><td>label>Password: </label></td>
+				<td><input type="Password" name="password"></td>
+				<tr-->
+			<tr><td><label>Date of birth: </label></td>
+				<td><input type="date" name="birthday"></td>
+			</tr>
+			<tr><td><label>Class you are handling</label></td>
+				<td><input type="checkbox" name="class" value="PreKG">PreKG
+					<input type="checkbox" name="class" value="LKG">LKG
+					<input type="checkbox" name="class"value="UKG">UKG
+				</td>
+			</tr>
+			<tr>
+				<td><label>How was the session</label></td>
+				<td><input type="radio" name="feedback" value="Excellent" >Excellent
+					<input type="radio" name="feedback" value="Good">Good
+					<input type="radio" name="feedback" value="Average">Average
+					<input type="radio" name="feedback" value="Poor">poor
+				</td>
+			</tr>
+			<tr>
+				<td><label>Your are from: </label></td>
+				<td>
+					<select name="place">
+						<option value="Chennai">Chennai</option>
+						<option value="Vellore">Vellore</option>
+						<option value="Pondicherry">Pondicherry</option>
+					</select>
+				</td>
+			</tr>
+			<tr><td></td>
+				<td><br><input type="submit" value="Save & Submit"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="reset" value="Reset"></td>
+			</tr>
+		</table>
+	</form>
+	<br>
+	<a href="index.html"><h3>Go Back!</h3></a>
+</body>
+</html>
+
+
+
+<!--copied result after submission
+?
+First+name=vijay
+&last+name=R
+&email=vijay%40sipacademyindia.com
+&birthday=1994-07-09
+&class=LKG
+&class=UKG
+&feedback=Excellent
+&place=Pondicherry-->

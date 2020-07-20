@@ -1,0 +1,48 @@
+body
+{
+	background: url(bg5.jpg) no-repeat center fixed;
+	background-size: cover;
+	align-items: flex-start;
+}
+
+.container
+{
+	margin: 0px 0px 0px 25px;
+	border: 5px;
+	border-color: #A58600;
+	border-style: dashed double outset;
+	padding: 40px 0px 80px 15px;
+	border-radius: 20px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+h1
+{
+	font-family: 'Merriweather', serif;
+	color: #5e3019;
+	text-shadow: 1px 1px #FF0000;
+	font-size: 	60px;
+	margin: 10px 0px 0px 10px;
+}
+
+a
+{
+	color: #6c070e;
+	text-decoration: underline;
+}
+
+h2
+{
+	font-family: 'Merriweather', Serif;
+	margin-left: 15px;
+}
+
+h5
+{
+	font-family: 'Merriweather', Serif;
+	margin-left: 30px;
+}
+img
+{
+	margin-left: 30px;
+}

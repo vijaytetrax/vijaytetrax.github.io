@@ -1,0 +1,80 @@
+body
+{
+	background-image: url(bg6.jpg);
+	background-size: cover;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	display: inline-flex-reverse;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+h1
+{
+	font-size: 	40px;
+	text-shadow: 2px 2px #A9A215;
+	margin: 50px 0px 0px 0px;
+	text-align: center;
+}
+
+.mango
+{
+	float: left;
+	border: 5px;
+	border-color: #AEA781;
+	border-style: outset;
+	border-radius: 20px; 
+	background-color: rgba(255, 255,255, 0.3);
+	display: inline-block;
+	margin: 60px 0px 0px 60px;
+	padding: 20px 20px 20px 20px; 
+	width:300px;
+}
+
+.banana
+{
+	float: center;
+	border: 5px;
+	border-color: #AEA781;
+	border-style: outset;
+	border-radius: 20px;
+	background-color: rgba(255, 255,255, 0.3);
+	display: inline-block;
+	margin: 60px 0px 0px 0px;
+	padding: 20px 20px 20px 20px; 
+	width:300px;
+}
+
+.jackfruit
+{
+	float: right;
+	border: 5px;
+	border-color: #AEA781;
+	border-style: outset;
+	border-radius: 20px;
+	background-color: rgba(255, 255,255, 0.3);
+	display: inline-block;
+	margin: 60px 60px 0px 0px;
+	padding: 20px 20px 20px 20px; 
+	width:300px;
+}
+
+p
+{
+	font-size: 	15px;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+span
+{
+	font-size: 1.5em;
+}
+
+.back
+{
+	float: left;
+	margin: 60px;
+}
